@@ -13,21 +13,13 @@
     max-width: 900px;
 }
 
-.gandalf-image{
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
-    position: absolute;
-    left: 40px;
-    bottom: 170px;
-}
-
 .cuervo-baile{
-    width: 200px;
+    width: 240px;
     height: auto;
     border-radius: 8px;
     position: absolute;
-    right: 60px;
+    right: 160px;
+    bottom: 70px;
 }
 
 .menu-container{

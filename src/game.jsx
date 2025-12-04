@@ -355,8 +355,9 @@ export default function DinoGame() {
             <img src={title} alt="Maguito vs RavenDB" className="game-title" />
             {/*<h2 className="gameOver-title">GAME OVER</h2>*/}
             <img src={gameOver} alt="Game Over" className="gameOver-image" />
-            
-            {guardando ? (
+            <img src={cuervoBaile} alt="Cuervo Bailando" className="cuervo-baile" />
+           
+           {guardando ? (
               <div className="loading">
                 Guardando en RavenDB...
               </div>
