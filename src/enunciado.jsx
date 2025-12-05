@@ -84,7 +84,7 @@ export default function Enunciado() {
 
   <p>Los Cuervos de la Torre, entidades negras formadas de datos comprimidos y metadatos, aparecieron sobre los restos silenciados del avatar.</p>
 
-  <p>Eran los heraldos de RavenDB: cuando un avatar muere, un cuervo llega para archivarlo.</p>
+  <p>Eran los heraldos de una entidad superior: cuando un avatar muere, un cuervo llega para archivarlo.</p>
 
   <p>El servidor emitió un último pitido. No fue dramático ni apocalíptico. Simplemente... cesó.</p>
 
