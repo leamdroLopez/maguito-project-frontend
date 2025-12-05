@@ -6,7 +6,7 @@ import obstaculoImage from './assets/raven.png';
 import title from './assets/game-title.png';
 import './gameStyle.css';
 import gameOver from './assets/game-over.png';
-import gandalfImage from './assets/gandalf.gif';
+import gandalfImage from './assets/gandalf.jpg';
 import cuervoBaile from './assets/cuervoBaile.gif';
 
 export default function DinoGame() {
@@ -301,6 +301,7 @@ export default function DinoGame() {
         {gameState === 'menu' && (
           <div className="menu-container">
             <img src={title} alt="Maguito vs RavenDB" className="game-title" />
+            
             <div className="menu-name">
             <input
               type="text"

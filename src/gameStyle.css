@@ -192,3 +192,11 @@ p{
 }
 
 
+.gandalf{
+    position: absolute;
+    left: 60px;
+    width: 260px;
+    height: auto;
+    border-radius: 8px;
+    top: 300px;
+}

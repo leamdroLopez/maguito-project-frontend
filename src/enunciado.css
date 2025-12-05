@@ -1,0 +1,135 @@
+.contenedor {
+    width: 100%;
+    display: flex; 
+    margin: 0;
+    padding: 0px; 
+    background: linear-gradient(180deg, #ffffff 0%, #f3eabd 100%);
+    background-attachment: fixed;
+}
+
+.columna-fija {
+    padding: 10px;
+    width: 33%; 
+    position: sticky;
+    align-self: flex-start; 
+    height: fit-content;
+    transition: opacity 0.5s ease; 
+    top: 0px;
+    height: 100vh;             
+    display: flex;
+    align-items: center;       
+    justify-content: center;   
+    box-sizing: border-box;
+}
+
+.columna-fija img {
+    max-width: 100%; /* ¡CORRECCIÓN: La imagen se ajusta al 100% del ancho de su columna! */
+    height: auto; 
+    display: block;
+    transition: opacity 0.5s ease;
+}
+
+.imagen-lore {
+  width: 100%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.imagen-lore.oculta {
+  opacity: 0;
+}
+
+.imagen-lore.visible {
+  opacity: 1;
+}
+
+
+
+
+
+.columna-scroll {
+    width: 65%; 
+    font-family: 'Georgia', serif;
+    color: #000000;
+    line-height: 1.8;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.columna-scroll h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.system-box {
+  border: 2px solid #000000;
+  padding: 1rem;
+  margin: 2rem 0;
+  font-family: 'Courier New', monospace;
+}
+
+.system-box-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  line-height: 0;
+}
+
+.system-box-title p {
+  margin: 0;
+  white-space: pre;
+  text-align: center;
+}
+
+.log-line {
+  font-family: 'Courier New', monospace;
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.loading-bar {
+  text-align: center;
+  margin: 1rem 0;
+  letter-spacing: 3px;
+  font-family: 'Courier New', monospace;
+}
+
+
+.columna-scroll p {
+  margin: 1.5rem 0;
+  text-indent: 1.5rem;
+}
+
+.columna-scroll h2 {
+  font-size: 1.4rem;
+  margin: 2rem 0 1rem 0;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.code-block {
+  border-left: 3px solid #000000;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  font-family: 'Courier New', monospace;
+}
+
+.code-block pre {
+  margin: 0;
+}
+
+.dialogue {
+  font-style: italic;
+}
+
+.final-message {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+
